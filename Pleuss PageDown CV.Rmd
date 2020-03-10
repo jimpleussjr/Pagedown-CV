@@ -3,9 +3,405 @@ title: "Pleuss Pagedown CV"
 author: "Jim Pleuss"
 date: "3/9/2020"
 output: pagedown::html_resume
+
 ---
 
+``` {css, echo=FALSE, eval=TRUE}
+.pagedjs_page:not(:first-of-type) {
+  --sidebar-width: 0rem;
+  --sidebar-background-color: #ffffff;
+  --main-width: calc(var(--content-width) - var(--sidebar-width));
+  --decorator-horizontal-margin: 0.2in;
+}
+
+.blocks { 
+  break-inside: avoid;
+}
+
+.body{
+  --line-height: 2;
+}
+```
 
 Aside
-=====================
+====================================
+
+![](Jim_and_Ally.jpg)
+
+Contact info
+------------------------------------
+
+<i class="fa fa-envelope"></i> james.d.pleuss.mil@mail.mil  
+<i class="fa fa-envelope"></i> james.pleuss@westpoint.edu  
+<i class="fa fa-envelope"></i> jim.pleuss@gmail.com  
+<i class="fa fa-github"></i> [www.github.com/jimpleussjr](www.github.com/jimpleussjr)  
+<i class="fa fa-phone"></i> +1 845-938-8006  
+<i class="fa fa-mobile"></i> +1 757-816-7400  
+
+<i class="fa fa-building"></i> Office of the Dean of the Academic Board  
+United States Military Academy  
+ATTN: MAJ Jim Pleuss  
+646 Swift Road  
+West Point, NY 10996
+
+<i class="fa fa-home"></i> 26 Maple Road  
+Cornwall-on-Hudson, NY 12520
+
+
+
+Computing Skills
+------------------------------------
+
+**Expertise:** R/RStudio, Markdown, Latex, O365 Suite, Simio
+
+**Familiarity:** Git/Github, SQL, C/C++, Shiny, Mathematica, Python, Ada, VBA, Gephi, CPLEX
+
+Disclaimer
+------------------------------------
+
+Last updated on `r format(Sys.time(), "%d %B, %Y")`
+
+
+Main
+====================================
+
+MAJ James D. Pleuss {#title}
+------------------------------------
+
+### Army Operations Research Systems Analysis (FA49) Officer
+
+
+
+Education {data-icon=graduation-cap}
+------------------------------------
+
+### Kansas State University
+
+M.S. in Operations Research
+
+Manhattan, KS
+
+May 2016 - August 2014 
+
+Thesis: Optimizing Disaster Response Communication Networks of Foreign Animal Disease  
+GPA: 4.0
+
+### United States Military Academy (USMA)
+
+B.S. in Computer Science
+ 
+West Point, NY
+
+May 2007 - June 2003 
+
+Honors: Superintendent's Award, Dean's List, Upsilon Pi Epsilon  
+GPA: 3.65
+
+### U.S. Army Professional Education
+
+- Combatives Level 1, Fort Riley, KS, 2012  
+-	Signal Captain's Career Course, Fort Gordon, GA, 2011  
+-	Contracting Officer Representative, Torii Station, Okinawa, Japan, 2008 
+-	Network Essentials Course, Fort Buckner, Okinawa, Japan, 2008  
+-	Signal Basic Officer Leader Course, Fort Gordon, GA, 2007  
+-	Basic Officer Leader Course, Fort Benning, GA, 2007  
+-	Air Assault, Camp Smith, NY, 2005  
+
+N/A
+
+
+Teaching Experience {data-icon=chalkboard-teacher}
+--------------------------
+
+### Department of Mathematics, USMA
+
+- MA206: Introduction to Probability and Statistics (8 semesters)  
+- MA103: Mathematical Modelings (1 semester)  
+- Intro to SQL (single day course)
+- Academic Advisor for 4 cadet theses
+
+N/A
+
+Professional Experience {data-icon=briefcase}
+--------------------------
+
+### Assistant Dean for Plans, Analysis and Personnel
+
+Office of the Dean, USMA
+
+West Point, NY
+
+Present - June 2019
+
+- Developed Academy and Army regulation for Sabbaticals and Operational Experiences.
+- Responsible for faculty allocation and acquisition.
+- Conducted analysis for Dean on a variety of topics: absences, academic boards, trip sections, etc.
+
+### Assistant Professor
+
+Department of Mathematical Sciences, USMA
+
+West Point, NY
+
+June 2019 - June 2016
+
+- Course Director for Introduction to Probability and Statistics Course
+- Department Social Team and Sports Program Coordinator
+
+### Signal Company Commander
+ 
+C Company, 601st Aviation Support Battalion (ASB)
+
+Fort Riley, KS
+
+May 2014 - October 2012
+
+- Provided tactical network coverage and support to 3,400 Soldiers in the Brigade.
+- Responsible for $8.6 million of equipement as well as the health, welfare and training of 39 Soldiers.
+- Deployed and Redeployed to Afghanistan with no loss of equipment or personnel.
+
+### Battalion Signal Officer (S6)
+
+601st ASB, 1st Combat Aviation Brigade
+
+Fort Riley, KS
+
+October 2012 - April 2011
+
+- Provide communication support to four companies and 650 Soldiers.
+- Responsible for automations planning/maintenance and Information Assurance compliance.
+
+### Assistant Operations Officer
+
+58th Signal Battalion, 516th Signal Brigade
+
+Fort Buckner, Okinawa, Japan
+
+October 2011 - August 2010
+
+- Responsible for the training of 340 military and civilian personnel operating the only Strategic Tactical Entry Point Site in the Pacific.
+
+### Special Operations Task Force Operations Officer (S3)
+
+1st Battalion, 1st Special Forces Group
+
+Camp Awang, Mindanao, Philippines
+
+August 2010 - January 2010
+
+- Sychronized counter-terrorism and Philippine National Army capacity-building operations for the Special Operations Task Force covering the largest geographical area in the Joint Special Operations Task Force - Philippines. 
+
+
+
+Conference Presentations {data-icon=chalkboard}
+----------------------
+
+### Rendering Parameterized RMarkdown Reports
+
+Army Operations Research Symposium
+
+Aberdeen, MD
+
+October 2019
+
+### A Machine Learning Approach Relating 3D Body Scans to Body Composition in Humans
+
+Joint Math Meetings
+
+Baltimore, MD
+
+Feburary 2019
+
+### Modeling Undergraduate Statistics Performance
+
+Joint Statistics Meetings
+
+Vancouver, British Columbia, Canada
+
+August 2018
+
+### The Impact of Academically Homogeneous Classrooms in Undergraduate Statistics Education
+
+Joint Statistics Meetings
+
+Vancouver, British Columbia, Canada
+
+August 2018
+
+### Effects of Daily Required Homework on Student Achievement in Undergraduate Mathematics
+
+International Conference for Technology in Collegiate Mathematics
+
+Chicago, IL
+
+March 2017
+
+
+Publications {data-icon=file}
+--------------------------
+
+### A Peer Writing Workshop in an Introductory Statistics Course to Improve Statistical Thinking and Writing
+
+Cummiskey, K., Adams, B., **Pleuss J.**, Turner, D., Watts, K.
+
+Teaching and Learning the West Point Way
+
+Under Review 2020
+
+### Using Cadence to Predict the Walk-to-Run Transition in Children and Adolescents: A Logistic Regression Approach
+
+Ducharme, S., Turner, D., **Pleuss J.**, Moore, C., Schuna Jr, J.,  Tudor-Locke, C.,Aguilar, E.
+
+Gait and Posture
+
+Under Review 2020
+
+### Causal Inference in Introductory Statistics Courses [(Article Link)](https://doi.org/10.1080/10691898.2020.1713936)
+
+Cummiskey, K., Adams, B., **Pleuss J.**, Turner, D., Clark, N., Watts, K.
+
+Journal of Statistics Education
+
+February 2020 
+
+### The Impact of Academically Homogeneous Classrooms for Undergraduate Statistics [(Article Link)](https://doi.org/10.1080/10511970.2019.1710629)
+
+**Pleuss J.**, Turner, D., Collins, C. 
+
+Problems, Resources, and Issues in Mathematics Undergraduate Studies
+
+January 2020
+
+### Condorcet Clustering with Delaunay Triangulation [(Article Link)](https://link.springer.com/chapter/10.1007/978-3-030-21741-9_9)
+
+Basset, M., Newton, B., Schlessinger, J., Schmidt, J., Lynch, S., Kuiper, P., Miller, R., Morse, S., **Pleuss, J.**, Russell, T., Pulleyblank, W.
+
+SBP BRiMS 2019
+
+June 2019
+
+### Differential Effects of Incentivized Homework on Student Achievement in Undergraduate Mathematics [(Article Link)](https://doi.org/10.1080/10511970.2018.1530703)
+
+Koban, D., Fukuzawa, M., Slocum R., Fletcher, M., **Pleuss, J.**
+
+Problems, Resources, and Issues in Mathematics Undergraduate Studies
+
+May 2019
+
+### A Machine Learning Approach Relating 3D Body Scans to Body Composition in Humans [(Article Link)](https://doi.org/10.1038/s41430-018-0337-1)
+
+**Pleuss, J.**, Talty, K., Morse, S., Kuiper, P., Scioletti, M., Heymsfield, S., Thomas, D. 
+
+European Journal of Clinical Nutrition
+
+October 2018
+
+### Using Simulated Annealing to Improve the Information Dissemination Network Structure of a Foreign Animal Disease Outbreak Response [(Article Link)](https://doi.org/10.1515/jhsem-2017-0008)
+
+**Pleuss, J.**, Heier Stamm, J., Ellis, J.
+
+Journal of Homeland Security and Emergency Management
+
+September 2018
+
+### A Review of Machine Learning in Obesity [(Article Link)](https://www.ncbi.nlm.nih.gov/pubmed/29426065)
+
+DeGregory, K.W., Kuiper, P., T. DeSilvio, T., **Pleuss, J.**, Miller, R., Roginski, J.W., Fisher, C.B., Harness, D., Viswanath, S., Heymsfield, S.B., Dungan, I., Thomas, D.M.
+
+Obesity Reviews
+
+May 2018
+
+Service  {data-icon=hands-helping}
+---------------------------------
+
+### Glee Club Officer Representative, 2016 - Present
+
+N/A
+
+N/A
+
+N/A
+
+### Track Officer Representative, 2016 - 2018
+
+N/A
+
+N/A
+
+N/A
+
+### Department Sports Program Coordinator, 2016 - 2019
+
+N/A
+
+N/A
+
+N/A
+
+### Department SOcial Team Coordinator, 2016 - 2019
+
+N/A
+
+N/A
+
+N/A
+
+### Fourt Class Sponsor Program, 2016 - Present
+
+N/A
+
+N/A
+
+N/A
+
+### International New Cadet Host Family, 2017
+
+N/A
+
+N/A
+
+N/A
+
+### Cadet Character Development Facilitator, 2019 - Present
+
+N/A
+
+N/A
+
+N/A
+
+Activities/Awards {data-icon=trophy}
+-----------------------------
+
+### Academic
+
+- Finalist for Pollin Teaching Excellence Award, 2019  
+- Master Teacher Program Graduate, 2018  
+- FedEx Memphis Hub Simulation Design Winner, 2014  
+
+N/A
+
+### Military
+
+Awards/Decorations
+
+N/A
+
+N/A
+
+::: concise
+- Meritorious Service Medal (2)  
+- Army Commendation Medal (2)  
+- Army Achievement Medal (2)        
+- National Defense Service Medal  
+- Afghanistan Campaign Medal  
+- Global War on Terrorism Expeditionary Medal  
+- Global War on Terrorism Service Medal  
+- Military Outstanding Volunteer Service Medal  
+- Philippine Civic Action Badge  
+- NATO Medal  
+- Meritorious Unit Commendation 
+- Army Superior Unit Award  
+:::
 
