@@ -1,7 +1,7 @@
 ---
 title: "Pleuss Pagedown CV"
 author: "Jim Pleuss"
-date: "3/9/2020"
+date: "10/9/2020"
 output: pagedown::html_resume
 
 ---
@@ -101,7 +101,7 @@ GPA: 3.65
 
 - Combatives Level 1, Fort Riley, KS, 2012  
 -	Signal Captain's Career Course, Fort Gordon, GA, 2011  
--	Contracting Officer Representative, Torii Station, Okinawa, Japan, 2008 
+-	Contracting Officer Representative, Okinawa, Japan, 2008 
 -	Network Essentials Course, Fort Buckner, Okinawa, Japan, 2008  
 -	Signal Basic Officer Leader Course, Fort Gordon, GA, 2007  
 -	Basic Officer Leader Course, Fort Benning, GA, 2007  
@@ -135,7 +135,8 @@ Present - June 2019
 
 - Developed Academy and Army regulation for Sabbaticals and Operational Experiences.
 - Responsible for faculty allocation and acquisition.
-- Conducted analysis for Dean on a variety of topics: absences, academic boards, trip sections, etc.
+- Conducts statistical analysis for Dean on a variety of topics: absences, academic boards, trip sections, etc.
+- Action officer for a number of initiatives
 
 ### Assistant Professor
 
@@ -246,7 +247,7 @@ Cummiskey, K., Adams, B., **Pleuss J.**, Turner, D., Watts, K.
 
 Teaching and Learning the West Point Way
 
-Under Review 2020
+In Press 2020
 
 ### Using Cadence to Predict the Walk-to-Run Transition in Children and Adolescents: A Logistic Regression Approach
 
@@ -339,7 +340,7 @@ N/A
 
 N/A
 
-### Department SOcial Team Coordinator, 2016 - 2019
+### Department Social Team Coordinator, 2016 - 2019
 
 N/A
 
@@ -347,7 +348,7 @@ N/A
 
 N/A
 
-### Fourt Class Sponsor Program, 2016 - Present
+### Fourth Class Sponsor Program, 2016 - Present
 
 N/A
 
@@ -371,14 +372,23 @@ N/A
 
 N/A
 
+### Bible Study Leader 2018-Present
+
+N/A
+
+N/A
+
+N/A
+
 Activities/Awards {data-icon=trophy}
 -----------------------------
 
 ### Academic
 
+- Third Place in Inaugural Army Analysyt Data Challenge, 2019
 - Finalist for Pollin Teaching Excellence Award, 2019  
 - Master Teacher Program Graduate, 2018  
-- FedEx Memphis Hub Simulation Design Winner, 2014  
+- FedEx Memphis Hub Simulation Design Winner, 2014
 
 N/A
 
@@ -392,7 +402,7 @@ N/A
 
 ::: concise
 - Meritorious Service Medal (2)  
-- Army Commendation Medal (2)  
+- Army Commendation Medal (3)  
 - Army Achievement Medal (2)        
 - National Defense Service Medal  
 - Afghanistan Campaign Medal  
