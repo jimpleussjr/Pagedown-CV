@@ -2,7 +2,7 @@
 title: "Pleuss Pagedown CV"
 author: "Jim Pleuss"
 date: "10/9/2020"
-output: pagedown::html_resume
+output: pagedown::pdf_resume
 
 ---
 
